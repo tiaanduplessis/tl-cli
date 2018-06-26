@@ -1,0 +1,41 @@
+{
+  "name": "tl-cli",
+  "version": "1.0.0",
+  "description": "Priority TODO CLI 📘",
+  "main": "src/index.js",
+  "repository": "https://github.com/tiaanduplessis/tl-cli",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "files": [
+    "src/cli.js",
+    "src/index.js"
+  ],
+  "bin": {
+    "tl": "src/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "todo",
+    "list",
+    "todo-cli"
+  ],
+  "dependencies": {
+    "cac": "^5.0.10",
+    "piggy-bank": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.2.0",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
