@@ -25,7 +25,7 @@
     "todo-cli"
   ],
   "dependencies": {
-    "cac": "^5.0.10",
+    "cac": "^6.5.9",
     "piggy-bank": "^2.0.0"
   },
   "devDependencies": {
